@@ -3,6 +3,8 @@ import pandas as pd
 
 st.set_page_config (layout="wide", page_title = "2023 MSDE Data Summary") 
 
+logo_url = 'logo.jpg'
+st.sidebar.image(logo_url)
 
 st.title("2023 MSDE Report Summary")
 
